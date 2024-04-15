@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Counselling</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,600;8..144,800;8..144,1000&display=swap');
+    </style>
+    <script src="main.js"></script>
+    <script type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+
+</head>
+<body class="blue-box">
+    <header>
+    <nav class="navbar">
+        <h1 class="logo-text">MindMentor</h1>
+        <div class="nav-links">
+            <a href="/index.html" class="nav-home-button">Home</a>
+            <!-- <a href="/Roadmap/roadmap.html">Roadmap</a> -->
+            <a href="/About/about.html">About Us</a>
+            <a href="/contact/contact.html">Contact Us</a>
+            <a href="/login.html">Login</a>
+        </div>
+    </nav></header>
+<div class="main-body-text">
+    <div id="frame"> 
+		<input type="radio" name="frame" id="frame1" checked /> 
+		<input type="radio" name="frame" id="frame2" /> 
+		<input type="radio" name="frame" id="frame3" /> 
+		<input type="radio" name="frame" id="frame4" /> 
+		<div id="slides"> 
+			<div id="overflow">
+                <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  -->
+				<div class="inner"> 
+					<div class="frame frame_1"> 
+						<div class="frame-content"> 
+							<h2>Slide 1</h2> 
+                            <img   src="Assets\Homepage\Career-Counseling.png"  alt="Slide 1 Image">
+						</div> 
+					</div> 
+					<div class="frame frame_2"> 
+						<div class="frame-content"> 
+							<h2>Slide 2</h2> 
+                            <img src="Assets\Homepage\science.webp" alt="Slide 2 Image">
+						</div> 
+					</div> 
+					<div class="frame frame_3"> 
+						<div class="frame-content"> 
+							<h2>Slide 3</h2>
+                            <img src="Assets\Homepage\commerce.jpg" alt="Slide 3 Image"> 
+						</div> 
+					</div> 
+					<div class="frame frame_4"> 
+						<div class="frame-content"> 
+							<h2>Slide 4</h2> 
+                            <img src="Assets\Homepage\arts.jpg" alt="Slide 3 Image">
+						</div> 
+					</div> 
+				</div> 
+                <br>
+                
+			</div> 
+		</div> 
+		<div id="controls"> 
+			<label for="frame1"></label> 
+			<label for="frame2"></label> 
+			<label for="frame3"></label> 
+			<label for="frame4"></label> 
+		</div> 
+		<div id="bullets"> 
+			<label for="frame1"></label> 
+			<label for="frame2"></label> 
+			<label for="frame3"></label> 
+			<label for="frame4"></label> 
+		</div> 
+	</div> 
+    <p>
+        <h2>A <strong><span id="head">Career</strong></span> is an individual's journey through learning,
+         work and other aspects of life.</h2><h2>Career is a very important aspect of anyone's life.</h2> <h2>Choosing a career in a certain strea defines the
+        future of a student.</h2> <h2> However, it is difficult for a student to choose a career path at the early age.</h2>
+    <br><br><br><br><br><br><a href="/Quiz/quiz.html">
+        <div class="quiz-button">Take up a quiz</div>
+        </a><br><br><br><br><br>
+        <!-- <div class="paragraph-text">
+            <p>
+                Take an AI-based quiz now;<br>Answering these questions will assist us in evaluating your career path more effectively.
+            </p>
+        </div> -->
+    </p>
+   
+
+</div>
+<div class="main-body-image">
+    <img src="Assets\Homepage\Career-in-Artificial-Intelligence-removebg-preview.png"  alt="main-image" >
+</div>
+
+<!-- <script>
+    let slideIndex = 0;
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("frame-content");
+    
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+    
+        slideIndex++;
+    
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+    
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change slide every 2 seconds
+    }
+    
+    // Previous and Next button functionality
+    function plusSlides(n) {
+        showSlidesManually((slideIndex += n));
+    }
+    
+    // Show a specific slide manually
+    function currentSlide(n) {
+        showSlidesManually((slideIndex = n));
+    }
+    
+    function showSlidesManually(n) {
+        let i;
+        let slides = document.getElementsByClassName("frame-content");
+    
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+    
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+    
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+    
+        slides[slideIndex - 1].style.display = "block";
+    }
+    
+    // Call the showSlides function to start the automatic slideshow
+    showSlides();
+    </script> -->
+    <div id="chatbot-button">
+        <a href="/ai/ai.html">
+            <div id="showChatButton" class="chat-button">🤖 AI Chat</div>
+        </a>
+    </div>
+
+</body>
+</html>
